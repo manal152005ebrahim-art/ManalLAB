@@ -6,15 +6,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner A=new Scanner(System.in);
         Arrayss arr =new Arrayss();
-       // int []numbers=new int[5];
-        int [] numbers={1,2,3,4};
-        arr.Traversal2(numbers);
-       // arr.Traversal(numbers);
+        //int [] numbers={1,2,3,4};
+        int []numbers2=new int[5];
+        arr.input(numbers2);
+       // arr.ReverseTraversal(numbers);
+        arr.Traversal(numbers2);
+       //arr.Traversal2(numbers2);
 
-        System.out.println("please enter element");
-        numbers[0]=A.nextInt();
+
+       // System.out.println("please enter element");
+      //  numbers[0]=A.nextInt();
 
 
         //  int [] numbers= new int[5];
@@ -22,8 +24,7 @@ public class Main {
 
         //int [] number ={1,2,3,4};
        // for(int i=0;i<number.length;i++)
-           // System.out.println(number[i]);
-
+           // System.out.ph
        // for(int e:number)
           //  System.out.println(e);
 
